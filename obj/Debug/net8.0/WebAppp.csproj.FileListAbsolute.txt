@@ -71,3 +71,4 @@
 /Users/bam/Desktop/CSharpKHTN/WebAppp/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/bam/Desktop/CSharpKHTN/WebAppp/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/bam/Desktop/CSharpKHTN/WebAppp/obj/Debug/net8.0/WebAppp.csproj.Up2Date
+/Users/bam/Desktop/CSharpKHTN/WebAppp/obj/Debug/net8.0/WebAppp.sourcelink.json
