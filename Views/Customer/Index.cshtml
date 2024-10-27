@@ -1,0 +1,31 @@
+@model List<Customer>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CustomerId</td>
+                <td>@item.CustomerName</td>
+                <td>@item.Phone</td>
+                <td>@item.Email</td>
+                <td>@item.Gender</td>
+                <td>@item.Address</td>
+                <td>
+                    <a href="/customer/delete/@item.CustomerId">Delete</a>
+                    <a href="/customer/edit/@item.CustomerId">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
