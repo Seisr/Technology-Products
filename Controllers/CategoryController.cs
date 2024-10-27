@@ -29,5 +29,15 @@ namespace WebApp.Controllers
             return View();
         }
 
+        public IActionResult Delete(byte id)
+        {
+            int ret = repository.Delete(id);
+            if (ret > 0) // ý là delete thành công
+            {
+                return Redirect("/category");
+            }
+            return Redirect("/category/error");
+        }
+
     }
 }

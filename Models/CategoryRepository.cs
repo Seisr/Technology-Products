@@ -17,4 +17,10 @@ public class CategoryRepository
         context.Category.Add(obj);
         return context.SaveChanges();
     }
+    public int Delete(byte id)
+    {
+        context.Category.Remove(new Category { CategoryId = id });
+        return context.SaveChanges();
+    }
+
 }
