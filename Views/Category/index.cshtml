@@ -1,0 +1,27 @@
+@model List<WebApp.Models.Category>
+
+
+<a href="/category/add">Add category</a>
+<div>Manage Category</div>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Command</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CategoryId</td>
+                <td>@item.CategoryName</td>
+                <td>
+                    <a href="/category/delete/@item.CategoryId">Delete</a>
+                    <a href="/category/edit/@item.CategoryId">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
