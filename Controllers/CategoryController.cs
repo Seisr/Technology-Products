@@ -14,6 +14,17 @@ namespace WebApp.Controllers
         {
             return View(repository.GetCategory(id));
         }
+        [HttpPost]
+        public IActionResult Edit(byte id, Category obj)
+        {
+            obj.CategoryId = id;
+            int ret = repository.Edit(obj);
+            if (ret > 0)
+            {
+                return Redirect("/category");
+            }
+            return View(obj);
+        }
         public IActionResult Index()
         {
             return View(repository.GetCategories()); // return all categories
