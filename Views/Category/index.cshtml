@@ -3,8 +3,8 @@
 
 <a href="/category/add">Add category</a>
 <div>Manage Category</div>
-<table>
-    <thead>
+<table class="mt-2 table table-bordered">
+    <thead class="table-dark">
         <tr>
             <th>Id</th>
             <th>Name</th>
@@ -18,10 +18,15 @@
                 <td>@item.CategoryId</td>
                 <td>@item.CategoryName</td>
                 <td>
-                    <a href="/category/delete/@item.CategoryId">Delete</a>
-                    <a href="/category/edit/@item.CategoryId">Edit</a>
+                    <a class="btn btn-outline-primary del" href="/category/delete/@item.CategoryId">Delete</a>
+                    <a class="btn btn-outline-primary" href="/category/edit/@item.CategoryId">Edit</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+<script>
+    $('.del').click(function () {
+        return confirm('Are you sure?');
+    })
+</script>

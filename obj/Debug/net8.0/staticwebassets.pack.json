@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/js/jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets/js/jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WebAppp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.WebAppp.props",
+      "PackagePath": "build\\WebAppp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebAppp.props",
+      "PackagePath": "buildMultiTargeting\\WebAppp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebAppp.props",
+      "PackagePath": "buildTransitive\\WebAppp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
