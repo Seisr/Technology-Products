@@ -1,0 +1,14 @@
+@model WebApp.Models.Category
+
+<form method="post">
+
+    <div>
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="categoryname" value="@Model.CategoryName">
+        </div>
+        <div>
+            <button>Save change</button>
+        </div>
+    </div>
+</form>

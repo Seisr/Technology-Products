@@ -10,6 +10,10 @@ namespace WebApp.Controllers
         {
             this.repository = repo;
         }
+        public IActionResult Edit(byte id)
+        {
+            return View(repository.GetCategory(id));
+        }
         public IActionResult Index()
         {
             return View(repository.GetCategories()); // return all categories
