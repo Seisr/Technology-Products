@@ -9,4 +9,6 @@ public class StoreContext : DbContext
     public StoreContext(DbContextOptions<StoreContext> options) : base(options) { } //constructor
     public DbSet<Category> Category { get; set; }
     public DbSet<Customer> Customer { get; set; }
+
+    public DbSet<Product> Product { get; set; }
 }

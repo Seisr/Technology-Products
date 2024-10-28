@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PEwC58iKBkCbaztK6rnwesgxMlurNctBfwcl8a/+LwY=",
+  "Hash": "KYxGZEBcGC5XeiEF7jqyydvAU9PGPdteqtXqam5rxLI=",
   "Source": "WebAppp",
   "BasePath": "_content/WebAppp",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "wwwroot/images/be0SoyB3gtvtMYYQLeINPSOvD106.png"
     },
     {
+      "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/jxUTDYvKlUshax5UQXEjphpY7PWG.jpg",
+      "SourceId": "WebAppp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/",
+      "BasePath": "_content/WebAppp",
+      "RelativePath": "images/jxUTDYvKlUshax5UQXEjphpY7PWG.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/jxUTDYvKlUshax5UQXEjphpY7PWG.jpg"
+    },
+    {
       "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/kEseVhuI81TrqZO33LvP6mlYP114.jpg",
       "SourceId": "WebAppp",
       "SourceType": "Discovered",
@@ -72,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/kEseVhuI81TrqZO33LvP6mlYP114.jpg"
+    },
+    {
+      "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/Sq3eDmyO92Z2tvltnUvqjOL4XMFq.png",
+      "SourceId": "WebAppp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/",
+      "BasePath": "_content/WebAppp",
+      "RelativePath": "images/Sq3eDmyO92Z2tvltnUvqjOL4XMFq.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Sq3eDmyO92Z2tvltnUvqjOL4XMFq.png"
     },
     {
       "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/test.jpg",
