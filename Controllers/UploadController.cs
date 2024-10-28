@@ -22,7 +22,7 @@ public class UploadController : Controller
             string ext = Path.GetExtension(f.FileName);
             string fileName = Helper.RandomString(32 - ext.Length) + ext;
 
-            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", f.FileName);
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
             using (Stream stream = new FileStream(path, FileMode.Create))
             {
                 f.CopyTo(stream);

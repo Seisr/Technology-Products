@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets/css/bootstrap.min.css"
     },
     {
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/be0SoyB3gtvtMYYQLeINPSOvD106.png",
+      "PackagePath": "staticwebassets/images/be0SoyB3gtvtMYYQLeINPSOvD106.png"
+    },
+    {
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/kEseVhuI81TrqZO33LvP6mlYP114.jpg",
+      "PackagePath": "staticwebassets/images/kEseVhuI81TrqZO33LvP6mlYP114.jpg"
+    },
+    {
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/test.jpg",
+      "PackagePath": "staticwebassets/images/test.jpg"
+    },
+    {
       "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/js/bootstrap.bundle.min.js"
     },
