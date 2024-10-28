@@ -15,4 +15,19 @@ public class CustomerController : Controller
     {
         return View(repository.GetCustomers());
     }
+
+    public IActionResult Add()
+    {
+        return View();
+    }
+    [HttpPost]
+    public IActionResult Add(Customer obj)
+    {
+        int ret = repository.Add(obj);
+        if (ret > 0)
+        {
+            return Redirect("/customer");
+        }
+        return View(obj);
+    }
 }

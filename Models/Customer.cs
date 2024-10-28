@@ -3,6 +3,7 @@ namespace WebApp.Models;
 [Table("Customer")]
 public class Customer
 {
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public byte CustomerId { get; set; }
 
     public string CustomerName { get; set; } = null!;

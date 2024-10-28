@@ -7,4 +7,8 @@ public class WelcomeController : Controller
     {
         return View();
     }
+    public IActionResult Simple()
+    {
+        return View();
+    }
 }

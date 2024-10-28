@@ -11,5 +11,10 @@ public class CustomerRepository
     {
         return context.Customer.ToList();
     }
+    public int Add(Customer obj)
+    {
+        context.Customer.Add(obj);
+        return context.SaveChanges();
+    }
 
 }
