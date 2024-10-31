@@ -6,9 +6,9 @@ namespace WebApp.Controllers
     public class CategoryController : Controller
     {
         CategoryRepository repository;
-        public CategoryController(CategoryRepository repo)
+        public CategoryController(CategoryRepository repository)
         {
-            this.repository = repo;
+            this.repository = repository;
         }
         public IActionResult Edit(byte id)
         {

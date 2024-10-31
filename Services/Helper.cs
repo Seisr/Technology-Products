@@ -13,4 +13,20 @@ public static class Helper
         }
         return string.Join(string.Empty, arr);
     }
+    public static string Upload(IFormFile f, string root, int len)
+    {
+        string ext = Path.GetExtension(f.FileName);
+        string fileName = RandomString(len - ext.Length) + ext;
+        using (Stream stream = new FileStream(Path.Combine(root, fileName), FileMode.Create))
+        {
+            f.CopyTo(stream);
+        }
+
+        return fileName;
+    }
+    public static string Upload(IFormFile f, int len)
+    {
+        string root = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+        return Upload(f, root, len);
+    }
 }
