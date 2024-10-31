@@ -5,24 +5,20 @@
       "PackagePath": "staticwebassets/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/Sq3eDmyO92Z2tvltnUvqjOL4XMFq.png",
-      "PackagePath": "staticwebassets/images/Sq3eDmyO92Z2tvltnUvqjOL4XMFq.png"
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/dell.png",
+      "PackagePath": "staticwebassets/images/dell.png"
     },
     {
-      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/be0SoyB3gtvtMYYQLeINPSOvD106.png",
-      "PackagePath": "staticwebassets/images/be0SoyB3gtvtMYYQLeINPSOvD106.png"
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/hp.png",
+      "PackagePath": "staticwebassets/images/hp.png"
     },
     {
-      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/jxUTDYvKlUshax5UQXEjphpY7PWG.jpg",
-      "PackagePath": "staticwebassets/images/jxUTDYvKlUshax5UQXEjphpY7PWG.jpg"
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/lenovo.png",
+      "PackagePath": "staticwebassets/images/lenovo.png"
     },
     {
-      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/kEseVhuI81TrqZO33LvP6mlYP114.jpg",
-      "PackagePath": "staticwebassets/images/kEseVhuI81TrqZO33LvP6mlYP114.jpg"
-    },
-    {
-      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/test.jpg",
-      "PackagePath": "staticwebassets/images/test.jpg"
+      "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/sony.png",
+      "PackagePath": "staticwebassets/images/sony.png"
     },
     {
       "Id": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/js/bootstrap.bundle.min.js",

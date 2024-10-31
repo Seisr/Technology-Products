@@ -1,7 +1,9 @@
 @model List<Product>
 
-<table>
-    <thead>
+
+<a href="/product/add">Add</a>
+<table class="table table-bordered">
+    <thead class="table-dark">
         <tr>
             <th>Id</th>
             <th>Name</th>
@@ -20,7 +22,7 @@
             <tr>
                 <td>@item.Id</td>
                 <td>@item.Name</td>
-                <td>@item.CategoryId</td>
+                <td>@item.Category?.CategoryName</td>
                 <td>
                     <img src="/images/@item.ImageUrl" alt="@item.Name" width="80">
                 </td>
