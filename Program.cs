@@ -8,6 +8,7 @@ builder.Services.AddDbContext<StoreContext>(p => p.UseSqlServer(builder.Configur
 builder.Services.AddScoped<CategoryRepository>();
 builder.Services.AddScoped<CustomerRepository>();
 builder.Services.AddScoped<ProductRepository>();
+builder.Services.AddScoped<MemberRepository>();
 
 builder.Services.AddMvc();
 var app = builder.Build();

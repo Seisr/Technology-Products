@@ -1,7 +1,17 @@
+using System.Security.Cryptography;
+using System.Text;
+
 namespace WebApp.Services;
 
 public static class Helper
 {
+    public static byte[] Hash(string plaintext)
+    {
+        using (HashAlgorithm algorithm = SHA256.Create())
+        {
+            return algorithm.ComputeHash(Encoding.ASCII.GetBytes(plaintext));
+        }
+    }
     public static string RandomString(int len)
     {
         string pattern = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

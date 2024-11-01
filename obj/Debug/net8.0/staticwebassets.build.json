@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JcZpT64mut0sumVlFmDNU6EssTTD8soFW0NPh4uII2U=",
+  "Hash": "HQo6P0YCDfWY/U0E5W2imqgti/vDvRf7+wohid1mdLw=",
   "Source": "WebAppp",
   "BasePath": "_content/WebAppp",
   "Mode": "Default",
@@ -93,25 +93,6 @@
       "OriginalItemSpec": "wwwroot/images/hp.png"
     },
     {
-      "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/k4mO3EtjVhcgHPyvUsyK4dndzAQR.jpg",
-      "SourceId": "WebAppp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/",
-      "BasePath": "_content/WebAppp",
-      "RelativePath": "images/k4mO3EtjVhcgHPyvUsyK4dndzAQR.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/k4mO3EtjVhcgHPyvUsyK4dndzAQR.jpg"
-    },
-    {
       "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/lenovo.png",
       "SourceId": "WebAppp",
       "SourceType": "Discovered",
@@ -129,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/lenovo.png"
+    },
+    {
+      "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/NonktNuj44o4vb6E8nqbtV1hfyIb.png",
+      "SourceId": "WebAppp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/",
+      "BasePath": "_content/WebAppp",
+      "RelativePath": "images/NonktNuj44o4vb6E8nqbtV1hfyIb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/NonktNuj44o4vb6E8nqbtV1hfyIb.png"
     },
     {
       "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/qYzG6LP3syAxb1TlWj7XeI5YhvCI.jpg",

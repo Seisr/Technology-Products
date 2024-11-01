@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/bam/Desktop/CSharpKHTN/WebAppp
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/bam/Desktop/CSharpKHTN/WebAppp/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/bam/Desktop/CSharpKHTN/WebAppp/Views/Category/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
