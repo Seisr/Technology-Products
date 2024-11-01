@@ -20,6 +20,6 @@ public class ProductRepository : BaseRepository
     public Product? GetProduct(int id)
     {
         return context.Products.Find(id);
-    }
+    } // thêm mới ở đây
 
 }

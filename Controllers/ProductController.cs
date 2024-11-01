@@ -39,15 +39,21 @@ public class ProductController : Controller
         if (f is null)
         {
             ModelState.AddModelError("Error", "Please upload image");
-            return View(obj);
+            // ModelState.AddModelError("Error", "Please upload image");
+            // return View(obj);
+            return Add();
         }
         string fileName = Helper.Upload(f, 32);
         obj.IMAGEUrl = fileName;
         int ret = repository.Add(obj);
         if (ret > 0)
         {
+            // Cái này là 1 Session <=> Cookies --- lưu vào Session
+            TempData["Msg"] = "Insert Success";
             return Redirect("/product");
         }
-        return View(obj);
+        ModelState.AddModelError("Error", "Insert Failed");
+        // return View(obj);
+        return Add();
     }
 }
