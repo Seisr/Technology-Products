@@ -1,3 +1,4 @@
+using System.Reflection.Metadata.Ecma335;
 using System.Runtime.InteropServices;
 using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
@@ -16,10 +17,28 @@ public class ProductController : Controller
         this.categoryRepository = categoryRepository;
     }
 
-    // public IActionResult Delete(int id)
-    // {
-    //     return View(repository.GetProduct(id));
-    // }
+    public IActionResult Delete(int id)
+    {
+        return View(repository.GetProduct(id));
+    }
+    [HttpPost]
+    public IActionResult Delete(int id, string imageUrl)
+    {
+
+        int ret = repository.Delete(id);
+        if (ret > 0)
+        {
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", imageUrl);
+            if (System.IO.File.Exists(path))
+            {
+                System.IO.File.Delete(path);
+            }
+            TempData["Msg"] = "Delete Success";
+            return Redirect("/product");
+        }
+        return Delete(id);
+
+    }
 
 
     public IActionResult Add()
@@ -56,4 +75,6 @@ public class ProductController : Controller
         // return View(obj);
         return Add();
     }
+
+
 }

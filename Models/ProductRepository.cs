@@ -22,4 +22,10 @@ public class ProductRepository : BaseRepository
         return context.Products.Find(id);
     } // thêm mới ở đây
 
+    public int Delete(int id)
+    {
+        context.Products.Remove(new Product { Id = id });
+        return context.SaveChanges();
+    }
+
 }

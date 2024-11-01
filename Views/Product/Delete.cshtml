@@ -1,5 +1,9 @@
 @model Product
 <form method="post">
+    <h2>@Model.Name</h2>
+    <div>
+        <img src="/images/@Model.IMAGEUrl" alt="@Model.Name" width="120" />
+    </div>
     <input type="hidden" name="id" value="@Model.Id">
     <input type="hidden" name="IMAGEUrl" value="@Model.IMAGEUrl">
     <button>Are you sure you want to delete?</button>
