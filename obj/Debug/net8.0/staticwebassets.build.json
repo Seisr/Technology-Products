@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5ermQ///T7CZbU9vHqF4ae39GTYYGB6w0sUdJpH51NA=",
+  "Hash": "+19Jdi8cc+2/I2b8ghhk1N2uMexrrt5VLdQghr+kriM=",
   "Source": "WebAppp",
   "BasePath": "_content/WebAppp",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/BZpS90H3T74EDSK9TN9kP8HCV3z0.jpg",
+      "SourceId": "WebAppp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/",
+      "BasePath": "_content/WebAppp",
+      "RelativePath": "images/BZpS90H3T74EDSK9TN9kP8HCV3z0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/BZpS90H3T74EDSK9TN9kP8HCV3z0.jpg"
     },
     {
       "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/dell.png",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/lenovo.png"
+    },
+    {
+      "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/qYzG6LP3syAxb1TlWj7XeI5YhvCI.jpg",
+      "SourceId": "WebAppp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/",
+      "BasePath": "_content/WebAppp",
+      "RelativePath": "images/qYzG6LP3syAxb1TlWj7XeI5YhvCI.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/qYzG6LP3syAxb1TlWj7XeI5YhvCI.jpg"
     },
     {
       "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/sony.png",

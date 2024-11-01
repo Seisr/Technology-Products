@@ -33,6 +33,7 @@ namespace WebApp.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Add(Category obj)
         {
@@ -53,6 +54,17 @@ namespace WebApp.Controllers
             }
             return Redirect("/category/error");
         }
+        [HttpPost]
+        public IActionResult Add2(Category obj)
+        {
+            int ret = repository.Add(obj);
+            if (ret > 0)
+            {
+                return Redirect("/category");
+            }
+            return View();
+        }
+
 
     }
 }
