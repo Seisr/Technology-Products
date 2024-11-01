@@ -16,6 +16,40 @@ public class ProductController : Controller
         this.repository = repository;
         this.categoryRepository = categoryRepository;
     }
+    [HttpPost]
+    public IActionResult Edit(int id, Product obj, IFormFile f)
+    {
+        if (f != null && !string.IsNullOrEmpty(f.FileName))
+        {
+            string root = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+
+            string path = Path.Combine(root, obj.IMAGEUrl);
+            if (System.IO.File.Exists(path))
+            {
+                System.IO.File.Delete(path);
+            }
+            string fileName = Helper.Upload(f, root, 32);
+            obj.IMAGEUrl = fileName;
+        }
+        int ret = repository.Edit(obj);
+        if (ret > 0)
+        {
+            TempData["Msg"] = "Update Success";
+            return Redirect("/product");
+        }
+        // return Edit(id);
+        ModelState.AddModelError("Error", "Update Failed");
+        ViewBag.Categories = categoryRepository.GetCategories();
+        ViewBag.units = new string[] { "Kg", "Gam", "Cái" };
+        return View(obj); //obj == repository.GetProduct(id)
+    }
+    public IActionResult Edit(int id)
+    {
+        ViewBag.Categories = categoryRepository.GetCategories();
+
+        ViewBag.units = new string[] { "Kg", "Gam", "Cái" };
+        return View(repository.GetProduct(id));
+    }
 
     public IActionResult Delete(int id)
     {

@@ -11,7 +11,6 @@ public class ProductRepository : BaseRepository
         return context.Products.Include(p => p.Category).ToList();
         // return context.Product.ToList();
     }
-
     public int Add(Product obj)
     {
         context.Products.Add(obj);
@@ -22,6 +21,11 @@ public class ProductRepository : BaseRepository
         return context.Products.Find(id);
     } // thêm mới ở đây
 
+    public int Edit(Product obj)
+    {
+        context.Products.Update(obj);
+        return context.SaveChanges();
+    }
     public int Delete(int id)
     {
         context.Products.Remove(new Product { Id = id });

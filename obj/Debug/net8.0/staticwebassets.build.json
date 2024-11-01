@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dLbYpsKTkNK8vWu/A5j1RJeT2N8PmdChvPV3v/tRBY8=",
+  "Hash": "JcZpT64mut0sumVlFmDNU6EssTTD8soFW0NPh4uII2U=",
   "Source": "WebAppp",
   "BasePath": "_content/WebAppp",
   "Mode": "Default",
@@ -167,25 +167,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/sony.png"
-    },
-    {
-      "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/images/ZSD2PTZ2DZhgTtvj5YLB3ooMTkSh.jpg",
-      "SourceId": "WebAppp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/",
-      "BasePath": "_content/WebAppp",
-      "RelativePath": "images/ZSD2PTZ2DZhgTtvj5YLB3ooMTkSh.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ZSD2PTZ2DZhgTtvj5YLB3ooMTkSh.jpg"
     },
     {
       "Identity": "/Users/bam/Desktop/CSharpKHTN/WebAppp/wwwroot/js/bootstrap.bundle.min.js",
